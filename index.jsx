@@ -1,6 +1,6 @@
 const { useState } = React;
 
-export const SuperheroForm = () => {
+ const SuperheroForm = () => {
 
   const powerSourceOptions = [
     'Bitten by a strange creature',
@@ -92,3 +92,4 @@ export const SuperheroForm = () => {
     </div>
   )
 };
+window.SuperheroForm = SuperheroForm;
